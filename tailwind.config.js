@@ -1,13 +1,10 @@
 module.exports = {
-  purge:
-    process.env.NODE_ENV === 'production'
-      ? {
-          content: ['**/**/*.njk'],
-          options: {
-            whitelist: [],
-          },
-        }
-      : false,
+  purge: {
+    content: ['**/**/*.njk'],
+    options: {
+      whitelist: [],
+    },
+  },
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {},
