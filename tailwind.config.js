@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ['**/**/*.njk'],
+    content: ['**/*.njk', '**/*.md'],
     options: {
       whitelist: [],
     },
