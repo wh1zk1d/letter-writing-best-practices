@@ -14,15 +14,6 @@ layout: default.njk
         werden!
       </p>
     </div>
-    <!-- <div
-      class="block rounded-lg p-6 border border-gray-200 shadow bg-gradient-to-b from-gray-400 to-gray-600 text-white"
-    >
-      <h3 class="leading-6 font-semibold text-xl mb-3">Weitere Vorschläge? Fehler gefunden?</h3>
-      <p>
-        Wenn du einen GitHub Account hast kannst du mir per Pull Request gerne weitere Vorschläge oder Fehlerkorrekturen
-        schicken.
-      </p>
-    </div> -->
   </div>
 </section>
 
@@ -36,5 +27,40 @@ layout: default.njk
       {{ post.templateContent | safe }}
     </div>
     {% endfor %}
+  </div>
+</section>
+
+<section class="mt-12 md:mt-16">
+  <h4 class="text-2xl font-semibold text-gray-900">Bibeltexte die man nutzen könnte</h4>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 mt-4">
+    <div class="block rounded-lg px-10 py-6 border border-gray-200 shadow bg-white">
+      <ul class="list-outside list-disc">
+        <li class="pb-4">
+          <a
+            class="text-blue-500"
+            target="_blank"
+            title="Text auf jw.org lesen"
+            rel="noopener noreferrer"
+            href="https://www.jw.org/finder?wtlocale=X&pub=nwtsty&srctype=wol&bible=20015015&srcid=share"
+          >
+            Sprüche 15:15
+          </a>
+          &rarr; "Wer ein freudiges Herz hat, für den ist jeder Tag ein Fest"
+        </li>
+        <li>
+          <a
+            class="text-blue-500"
+            target="_blank"
+            title="Text auf jw.org lesen"
+            rel="noopener noreferrer"
+            href="https://www.jw.org/finder?wtlocale=X&pub=nwtsty&srctype=wol&bible=52005011&srcid=share"
+          >
+            1. Thessalonicher 5:11
+          </a>
+          &rarr; "Macht euch weiter gegenseitig Mut und baut einander auf"
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
